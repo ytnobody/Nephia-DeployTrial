@@ -6,7 +6,6 @@ use Nephia;
 our $VERSION = 0.01;
 
 path '/' => sub {
-    my $req = shift;
     return {
         template => 'index.tx',
         title => 'Nephia::DeployTrial',
