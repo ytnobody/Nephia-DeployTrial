@@ -1,5 +1,5 @@
 #!/bin/sh
 echo "PLACKUP!"
-plackup &
+nohup plackup > /dev/null 2>&1 &
 echo "PLACKUP DONE"
 
